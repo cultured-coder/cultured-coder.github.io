@@ -223,3 +223,10 @@ footer {
     brightness(1.2)
     drop-shadow(0 0 6px #ff785a);
 }
+
+@supports not font-tech(color-COLRv1) {
+  h1,
+  .pixel-link {
+    color: #ff8a9e;
+  }
+}
